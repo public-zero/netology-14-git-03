@@ -355,3 +355,15 @@ Fast-forward
 На странице GitHub Activity проверил историю изменений репозитория. Видны первый `merge`, принудительная отправка изменений после `rebase` и обновление ветки `main`.
 
 ![История изменений GitHub Activity](screenshots/09_github_activity.png)
+
+---
+
+## 8. Граф коммитов Git
+
+Для проверки истории веток выполнил команду:
+
+git log --oneline --graph --all --decorate
+
+На графе видны результаты merge, rebase и финального Fast-forward.
+
+![Граф коммитов из терминала](screenshots/10_git_log_graph.png)
